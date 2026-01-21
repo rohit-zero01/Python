@@ -95,6 +95,62 @@ for ch in word:
 
 print("count= ", count)'''
 
+'''
+word = "artificial intelligence"
+
+vowels = 0
+
+for ch in word:
+    if(ch == "a" or ch == "e" or ch == "i" or ch == "o" or ch == "u"):
+        vowels+=1
+
+print("vowels = ", vowels)'''
+
+'''
+n = int(input("Enter no: "))
+
+sum=0
+for i in range(1, n+1):
+    sum+=i
+print(sum)'''
+
+'''
+def sum(a,b):
+    s = a+b
+    return s 
+
+print(sum(2,3))'''
+
+'''
+def avg(a,b,c):
+    a = (a+b+c)/3
+    return a
+
+print(avg(2,3,5))'''
+
+'''
+num = int(input("Enter number: "))
+i = 1
+
+for ch in range(1, num+1):
+    num = i*num
+    # i+=1
+
+print(num)'''
+
+#1
+'''
+salary = int(input("Enter salary: "))
+
+if(salary<30000):
+    print("5%")
+elif(30000<salary<70000):
+    print("15%")
+else:
+    print("25%")'''
+
+#2
+
 
 
 
