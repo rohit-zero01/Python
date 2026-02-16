@@ -65,6 +65,36 @@ for val in nums:
         break
     idx +=1'''
 
-##Tuples
+##Tuples(are not muttable just like strings)
+'''
+tup = (2,4,2,5,1,5,2,0)
+
+sum = 0
+
+for val in tup:
+    sum = sum+val
+
+print(f"sum of all values in tup is {sum}")
+
+#Methods
+print(tup.index(2))
+print(tup.count(2))'''
+
+##Dictionary(key:val)
+
+##Sets
+# sets are muttable but the values in it are not
+'''
+s = {0,1,2,3,3}
+
+s.add(4)
+s.remove(2)
+print(s)
+s.pop()
+print(s)
+s.clear()
+print(s)
+
+# print(type(s))'''
 
 
