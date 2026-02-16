@@ -180,3 +180,22 @@ elif(30000<salary<70000):
 else:
     print("25%")
 '''
+
+#2
+'''
+def even_no(a,b):
+    for i in range(a, b+1):
+        if i%2==0:
+            print(i)
+
+even_no(2,10)'''
+
+#3
+'''
+def print_digits(n):
+    while n>0:
+        print(n%10)
+        n=n//10
+    
+print_digits(312)'''
+
